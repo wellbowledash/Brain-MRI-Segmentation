@@ -3,6 +3,7 @@
 The Dataset is available at - https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation/data
 
 We have implemented the MAGRes U-net model (see - https://www.x-mol.net/paper/article/1765469628230504448) for predicting the shape of tumors in brain MRI images and compared the results with a standard U-net model.
+The MAGRes U-net model achieved a better segmentation accuracy on brain MRI images and gave more accurate predictions of small scaled tumors.
 
 The trained model is available for download in the Releases section. To run the App, download the trained model and run 'streamlit run App.py' in the terminal.
 

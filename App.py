@@ -66,7 +66,7 @@ model = load_model('unet_brain_mri_seg3.keras', custom_objects={
 im_height = 256
 im_width = 256
 
-files = st.file_uploader("Upload files", type=[
+files = st.file_uploader("Upload Brain MRI images", type=[
                             "csv", "png", "jpg", "tif"], accept_multiple_files=True)
 
 if files:
